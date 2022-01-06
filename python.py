@@ -7,3 +7,4 @@ def f1(fun):
 @f1
 def f2():
     print("This is decorator")
+f2()
