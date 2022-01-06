@@ -4,7 +4,8 @@ def f1(fun):
         fun()
         print("After")
     return wraper
-@f1
+
 def f2():
     print("This is decorator")
+f2=f1(f2)
 f2()
